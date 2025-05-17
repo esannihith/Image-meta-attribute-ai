@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+dist/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# Project specific
+backend/temp_images/

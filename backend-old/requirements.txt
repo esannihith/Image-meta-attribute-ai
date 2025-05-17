@@ -1,0 +1,27 @@
+# Core backend dependencies
+fastapi==0.103.2
+uvicorn==0.23.2
+python-dotenv==1.0.0
+
+# LLM + CrewAI
+crewai==0.28.0
+pydantic==2.4.2
+
+# Image processing
+pillow==10.0.1
+exifread==3.0.0
+piexif==1.1.
+opencv-python-headless==4.8.0.76
+
+
+# HTTP & socket communication
+httpx==0.24.1
+python-socketio==5.9.0  # Compatible with aiohttp>=3.9.1
+# aiohttp is NOT pinned — let pip auto-resolve to 3.9.x+
+
+# Testing
+pytest==7.4.3
+
+# Additional tools
+roboflow==1.1.9
+groq==0.4.1
