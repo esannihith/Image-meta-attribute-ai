@@ -20,4 +20,4 @@ venv.bak/
 .pytest_cache/
 
 # Project specific
-backend/temp_images/
+backend/uploads/
